@@ -1,7 +1,7 @@
 C:\Projetos\GitHub\Pessoal\Argentum\bin\Debug\Argentum.exe.config
 C:\Projetos\GitHub\Pessoal\Argentum\bin\Debug\Argentum.exe
 C:\Projetos\GitHub\Pessoal\Argentum\bin\Debug\Argentum.pdb
-C:\Projetos\GitHub\Pessoal\Argentum\obj\Debug\Argentum.csprojAssemblyReference.cache
+C:\Projetos\GitHub\Pessoal\Argentum\obj\Debug\Argentum.Argentum.resources
 C:\Projetos\GitHub\Pessoal\Argentum\obj\Debug\Argentum.Properties.Resources.resources
 C:\Projetos\GitHub\Pessoal\Argentum\obj\Debug\Argentum.csproj.GenerateResource.cache
 C:\Projetos\GitHub\Pessoal\Argentum\obj\Debug\Argentum.csproj.CoreCompileInputs.cache
@@ -9,6 +9,8 @@ C:\Projetos\GitHub\Pessoal\Argentum\obj\Debug\Argentum.exe
 C:\Projetos\GitHub\Pessoal\Argentum\obj\Debug\Argentum.pdb
 C:\Projetos\GitHub\Pessoal\Argentum\bin\Debug\fr\Argentum.resources.dll
 C:\Projetos\GitHub\Pessoal\Argentum\bin\Debug\pt\Argentum.resources.dll
+C:\Projetos\GitHub\Pessoal\Argentum\obj\Debug\Argentum.Argentum.fr.resources
+C:\Projetos\GitHub\Pessoal\Argentum\obj\Debug\Argentum.Argentum.pt.resources
 C:\Projetos\GitHub\Pessoal\Argentum\obj\Debug\Argentum.Properties.Resources.fr.resources
 C:\Projetos\GitHub\Pessoal\Argentum\obj\Debug\Argentum.Properties.Resources.pt.resources
 C:\Projetos\GitHub\Pessoal\Argentum\obj\Debug\fr\Argentum.resources.dll

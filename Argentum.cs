@@ -16,5 +16,11 @@ namespace Argentum
         {
             InitializeComponent();
         }
+
+        private void Argentum_Load(object sender, EventArgs e)
+        {
+           //System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("pt-PT");
+           // System.Threading.Thread.CurrentThread.CurrentCulture = ci;
+        }
     }
 }

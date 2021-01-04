@@ -59,8 +59,23 @@
     <Compile Include="Argentum.Designer.cs">
       <DependentUpon>Argentum.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Argentum.fr.resx">
+      <DependentUpon>Argentum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Argentum.pt.resx">
+      <DependentUpon>Argentum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Argentum.resx">
+      <DependentUpon>Argentum.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.fr.resx" />
     <EmbeddedResource Include="Properties\Resources.pt.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -71,7 +86,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="DB\Argentum.db" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -85,6 +102,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Presets\Images\background.jpg" />
+    <Content Include="Presets\Images\cifrao.ico" />
+  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <XliffResource Include="MultilingualResources\Argentum.fr.xlf" />
     <XliffResource Include="MultilingualResources\Argentum.pt.xlf" />
