@@ -17,10 +17,19 @@ namespace Argentum
             InitializeComponent();
         }
 
+        private void Argentum_Shown(object sender, EventArgs e)
+        {
+            Principal principal = new Principal();
+            principal.Show();
+
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+        }
+
         private void Argentum_Load(object sender, EventArgs e)
         {
-           //System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("pt-PT");
-           // System.Threading.Thread.CurrentThread.CurrentCulture = ci;
+
         }
     }
 }

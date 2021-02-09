@@ -38,21 +38,21 @@
             // 
             resources.ApplyResources(this.lblVersion, "lblVersion");
             this.lblVersion.BackColor = System.Drawing.Color.Transparent;
-            this.lblVersion.ForeColor = System.Drawing.Color.Transparent;
+            this.lblVersion.ForeColor = System.Drawing.Color.Gray;
             this.lblVersion.Name = "lblVersion";
             // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Name = "label2";
             // 
             // lblLoading
             // 
             resources.ApplyResources(this.lblLoading, "lblLoading");
             this.lblLoading.BackColor = System.Drawing.Color.Transparent;
-            this.lblLoading.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblLoading.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lblLoading.Name = "lblLoading";
             // 
             // Argentum
@@ -68,6 +68,7 @@
             this.ShowIcon = false;
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Argentum_Load);
+            this.Shown += new System.EventHandler(this.Argentum_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

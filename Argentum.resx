@@ -123,19 +123,22 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblVersion.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
   </data>
   <data name="lblVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 350</value>
+    <value>195, 363</value>
   </data>
   <data name="lblVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 16</value>
+    <value>89, 15</value>
   </data>
   <data name="lblVersion.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="lblVersion.Text" xml:space="preserve">
     <value>version 1.0.0</value>
+  </data>
+  <data name="lblVersion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;lblVersion.Name" xml:space="preserve">
     <value>lblVersion</value>
@@ -156,7 +159,7 @@
     <value>Bahnschrift Condensed, 48pt, style=Bold</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 96</value>
+    <value>120, -5</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>241, 77</value>
@@ -186,7 +189,7 @@
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="lblLoading.Location" type="System.Drawing.Point, System.Drawing">
-    <value>212, 197</value>
+    <value>197, 326</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lblLoading.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
@@ -200,6 +203,9 @@
   </data>
   <data name="lblLoading.Text" xml:space="preserve">
     <value>loading...</value>
+  </data>
+  <data name="lblLoading.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;lblLoading.Name" xml:space="preserve">
     <value>lblLoading</value>
@@ -226,7 +232,7 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>511, 375</value>
+    <value>469, 387</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

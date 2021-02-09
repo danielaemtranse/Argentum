@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Argentum.BLL;
 
 namespace Argentum
 {
@@ -14,6 +12,7 @@ namespace Argentum
         [STAThread]
         static void Main()
         {
+            Application.AddMessageFilter(new Base.TestMessageFilter());
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Argentum());

@@ -1,18 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en" target-language="fr" original="ARGENTUM/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
-    <header>
-      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
-    </header>
-    <body>
-      <group id="ARGENTUM/PROPERTIES/RESOURCES.RESX" datatype="resx">
-        <trans-unit id="background" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-          <source>..\Presets\Images\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
-          <target state="needs-review-translation">..\Presets\Images\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
-        </trans-unit>
-      </group>
-    </body>
-  </file>
   <file datatype="xml" source-language="en" target-language="fr" original="ARGENTUM/ARGENTUM.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
       <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
@@ -24,16 +11,19 @@
           <target state="needs-review-translation">True</target>
         </trans-unit>
         <trans-unit id="lblVersion.Font" translate="yes" extype="System.Drawing.Font, System.Drawing" xml:space="preserve">
-          <source>Microsoft Sans Serif, 9.75pt, style=Bold</source>
+          <source>Microsoft Sans Serif, 9pt, style=Bold</source>
           <target state="needs-review-translation">Microsoft Sans Serif, 9.75pt, style=Bold</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="lblVersion.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
-          <source>404, 350</source>
+          <source>195, 363</source>
           <target state="needs-review-translation">404, 350</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="lblVersion.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
-          <source>95, 16</source>
+          <source>89, 15</source>
           <target state="needs-review-translation">95, 16</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="lblVersion.TabIndex" translate="yes" extype="System.Int32, mscorlib" xml:space="preserve">
           <source>0</source>
@@ -52,8 +42,9 @@
           <target state="needs-review-translation">Bahnschrift Condensed, 48pt, style=Bold</target>
         </trans-unit>
         <trans-unit id="label2.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
-          <source>137, 96</source>
+          <source>120, -5</source>
           <target state="needs-review-translation">137, 96</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="label2.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>241, 77</source>
@@ -76,8 +67,9 @@
           <target state="needs-review-translation">Microsoft Sans Serif, 14.25pt</target>
         </trans-unit>
         <trans-unit id="lblLoading.Location" translate="yes" extype="System.Drawing.Point, System.Drawing" xml:space="preserve">
-          <source>212, 197</source>
+          <source>197, 326</source>
           <target state="needs-review-translation">212, 197</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="lblLoading.Size" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
           <source>87, 24</source>
@@ -104,8 +96,9 @@
           <target state="needs-review-translation">Stretch</target>
         </trans-unit>
         <trans-unit id="$this.ClientSize" translate="yes" extype="System.Drawing.Size, System.Drawing" xml:space="preserve">
-          <source>511, 375</source>
+          <source>469, 387</source>
           <target state="needs-review-translation">511, 375</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="$this.StartPosition" translate="yes" extype="System.Windows.Forms.FormStartPosition, System.Windows.Forms" xml:space="preserve">
           <source>CenterScreen</source>
@@ -118,6 +111,737 @@
         <trans-unit id="$this.Localizable" translate="yes" extype="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" extradata="metadata" xml:space="preserve">
           <source>True</source>
           <target state="needs-review-translation">True</target>
+        </trans-unit>
+        <trans-unit id="lblLoading.RightToLeft" translate="yes" xml:space="preserve" extype="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+          <source>No</source>
+          <target state="needs-review-translation">No</target>
+        </trans-unit>
+        <trans-unit id="lblVersion.TextAlign" translate="yes" xml:space="preserve" extype="System.Drawing.ContentAlignment, System.Drawing">
+          <source>MiddleCenter</source>
+          <target state="needs-review-translation">MiddleCenter</target>
+        </trans-unit>
+        <trans-unit id="lblLoading.TextAlign" translate="yes" xml:space="preserve" extype="System.Drawing.ContentAlignment, System.Drawing">
+          <source>MiddleCenter</source>
+          <target state="needs-review-translation">MiddleCenter</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en" target-language="fr" original="ARGENTUM/LOGIN.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="ARGENTUM/LOGIN.RESX" datatype="resx">
+        <trans-unit id="pictureBox1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+          <source>12, 10</source>
+          <target state="needs-review-translation">12, 12</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="pictureBox1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>57, 55</source>
+          <target state="needs-review-translation">57, 55</target>
+        </trans-unit>
+        <trans-unit id="pictureBox1.SizeMode" translate="yes" xml:space="preserve" extype="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+          <source>StretchImage</source>
+          <target state="needs-review-translation">StretchImage</target>
+        </trans-unit>
+        <trans-unit id="pictureBox1.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>79</source>
+          <target state="needs-review-translation">0</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="$this.AutoScaleDimensions" translate="yes" xml:space="preserve" extype="System.Drawing.SizeF, System.Drawing">
+          <source>6, 13</source>
+          <target state="needs-review-translation">6, 13</target>
+        </trans-unit>
+        <trans-unit id="$this.ClientSize" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>266, 162</source>
+          <target state="needs-review-translation">274, 162</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="$this.StartPosition" translate="yes" xml:space="preserve" extype="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+          <source>CenterScreen</source>
+          <target state="needs-review-translation">CenterScreen</target>
+        </trans-unit>
+        <trans-unit id="$this.Text" translate="yes" xml:space="preserve">
+          <source>Login</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Connexion</target>
+        </trans-unit>
+        <trans-unit id="$this.Localizable" translate="yes" xml:space="preserve" extype="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" extradata="metadata">
+          <source>True</source>
+          <target state="needs-review-translation">True</target>
+        </trans-unit>
+        <trans-unit id="pictureBox1.ImeMode" translate="yes" xml:space="preserve" extype="System.Windows.Forms.ImeMode, System.Windows.Forms">
+          <source>NoControl</source>
+          <target state="needs-review-translation">NoControl</target>
+        </trans-unit>
+        <trans-unit id="textEdit5.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+          <source>93, 29</source>
+          <target state="needs-review-translation">93, 29</target>
+        </trans-unit>
+        <trans-unit id="textEdit5.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>158, 20</source>
+          <target state="needs-review-translation">158, 20</target>
+        </trans-unit>
+        <trans-unit id="textEdit5.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>83</source>
+          <target state="needs-review-translation">83</target>
+        </trans-unit>
+        <trans-unit id="textEdit2.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+          <source>93, 77</source>
+          <target state="needs-review-translation">93, 77</target>
+        </trans-unit>
+        <trans-unit id="textEdit2.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>158, 20</source>
+          <target state="needs-review-translation">158, 20</target>
+        </trans-unit>
+        <trans-unit id="textEdit2.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>82</source>
+          <target state="needs-review-translation">82</target>
+        </trans-unit>
+        <trans-unit id="labelControl4.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+          <source>93, 57</source>
+          <target state="needs-review-translation">93, 57</target>
+        </trans-unit>
+        <trans-unit id="labelControl4.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>32, 13</source>
+          <target state="needs-review-translation">32, 13</target>
+        </trans-unit>
+        <trans-unit id="labelControl4.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>81</source>
+          <target state="needs-review-translation">81</target>
+        </trans-unit>
+        <trans-unit id="labelControl4.Text" translate="yes" xml:space="preserve">
+          <source>Senha</source>
+          <target state="new">Senha</target>
+        </trans-unit>
+        <trans-unit id="labelControl3.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+          <source>93, 10</source>
+          <target state="needs-review-translation">93, 10</target>
+        </trans-unit>
+        <trans-unit id="labelControl3.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>40, 13</source>
+          <target state="needs-review-translation">40, 13</target>
+        </trans-unit>
+        <trans-unit id="labelControl3.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>80</source>
+          <target state="needs-review-translation">80</target>
+        </trans-unit>
+        <trans-unit id="labelControl3.Text" translate="yes" xml:space="preserve">
+          <source>Usuário</source>
+          <target state="new">Usuário</target>
+        </trans-unit>
+        <trans-unit id="simpleButton1.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+          <source>139, 115</source>
+          <target state="needs-review-translation">177, 115</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="simpleButton1.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>112, 35</source>
+          <target state="needs-review-translation">74, 35</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="simpleButton1.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>85</source>
+          <target state="needs-review-translation">85</target>
+        </trans-unit>
+        <trans-unit id="simpleButton1.Text" translate="yes" xml:space="preserve">
+          <source>Entrar</source>
+          <target state="new">Entrar</target>
+        </trans-unit>
+        <trans-unit id="sbtExit.Location" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing">
+          <source>12, 115</source>
+          <target state="needs-review-translation">12, 115</target>
+        </trans-unit>
+        <trans-unit id="sbtExit.Size" translate="yes" xml:space="preserve" extype="System.Drawing.Size, System.Drawing">
+          <source>112, 35</source>
+          <target state="needs-review-translation">112, 35</target>
+        </trans-unit>
+        <trans-unit id="sbtExit.TabIndex" translate="yes" xml:space="preserve" extype="System.Int32, mscorlib">
+          <source>84</source>
+          <target state="needs-review-translation">84</target>
+        </trans-unit>
+        <trans-unit id="sbtExit.Text" translate="yes" xml:space="preserve">
+          <source>Sair</source>
+          <target state="new">Sair</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en" target-language="fr" original="ARGENTUM/PRINCIPAL.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="ARGENTUM/PRINCIPAL.RESX" datatype="resx">
+        <trans-unit id="$this.TrayHeight" translate="yes" extype="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" extradata="metadata" xml:space="preserve">
+          <source>158</source>
+          <target state="needs-review-translation">51</target>
+        </trans-unit>
+        <trans-unit id="toolTip.TrayLocation" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata">
+          <source>332, 17</source>
+          <target state="needs-review-translation">332, 17</target>
+        </trans-unit>
+        <trans-unit id="Principal.IconOptions.Icon" translate="yes" xml:space="preserve" extype="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+          <source>
+        AAABAAMAICAAAAEAIACoEAAANgAAABgYAAABACAAiAkAAN4QAAAQEAAAAQAgAGgEAABmGgAAKAAAACAA
+        AABAAAAAAQAgAAAAAACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAABEAAAAWAAAAFgAAABYAAAAWAAAAEQAA
+        AAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAMgAAAEMAAABDAAAAQwAA
+        AEMAAAAyAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAJAAAAEQAAACZWlm7/VJRr/1OS
+        av9Tkmr/VJRr/1aWbv8AAAAiAAAACQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAANAAAAGQAAACkAAAA4AAAARlST
+        a/+C2rX/gdax/4HWsf+C2rX/VJNr/wAAAD8AAAApAAAAFgAAAAcAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAGQAAADEAAABBPWtOmU6K
+        ZN1Tkmr/UY9m/37Trf980Kr/fNCq/37Trf9Rj2f/UIxm5z1qTpkAAAA7AAAAHwAAAAgAAAABAAAAAAAA
+        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
+        AADgDwAA4AcAAOAHAADwBwAA+A8AAPw/AAA=
+</source>
+          <target state="needs-review-translation">
+        AAABAAMAICAAAAEAIACoEAAANgAAABgYAAABACAAiAkAAN4QAAAQEAAAAQAgAGgEAABmGgAAKAAAACAA
+        AABAAAAAAQAgAAAAAACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAABEAAAAWAAAAFgAAABYAAAAWAAAAEQAA
+        AAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAMgAAAEMAAABDAAAAQwAA
+        AEMAAAAyAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAJAAAAEQAAACZWlm7/VJRr/1OS
+        av9Tkmr/VJRr/1aWbv8AAAAiAAAACQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAANAAAAGQAAACkAAAA4AAAARlST
+        a/+C2rX/gdax/4HWsf+C2rX/VJNr/wAAAD8AAAApAAAAFgAAAAcAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAGQAAADEAAABBPWtOmU6K
+        ZN1Tkmr/UY9m/37Trf980Kr/fNCq/37Trf9Rj2f/UIxm5z1qTpkAAAA7AAAAHwAAAAgAAAABAAAAAAAA
+        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
+        AADgDwAA4AcAAOAHAADwBwAA+A8AAPw/AAA=
+</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en" target-language="fr" original="ARGENTUM/ACCOUNTS.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="ARGENTUM/ACCOUNTS.RESX" datatype="resx">
+        <trans-unit id="imlImages.ImageStream" translate="yes" xml:space="preserve" mimetype="application/x-microsoft.net.object.binary.base64">
+          <source>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAw
+        CAAAAk1TRnQBSQFMAwEBAAG4AQABuAEAARABAAEQAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        AUADAAEQAwABAQEAAQgGAAEEGAABgAIAAYADAAKAAQABgAMAAYABAAGAAQACgAIAA8ABAAHAAdwBwAEA
+        AfABygGmAQABMwUAATMBAAEzAQABMwEAAjMCAAMWAQADHAEAAyIBAAMpAQADVQEAA00BAANCAQADOQEA
+        AYABfAH/AQACUAH/AQABkwEAAdYBAAH/AewBzAEAAcYB1gHvAQAB1gLnAQABkAGpAa0CAAH/ATMDAAFm
+        AwABmQMAAcwCAAEzAwACMwIAATMBZgIAATMBmQIAATMBzAIAATMB/wIAAWYDAAFmATMCAAJmAgABZgGZ
+        AgABZgHMAgABZgH/AgABmQMAAZkBMwIAAZkBZgIAApkCAAGZAcwCAAGZAf8CAAHMAwABzAEzAgABzAFm
+        AgABzAGZAgACzAIAAcwB/wIAAf8BZgIAAf8BmQIAAf8BzAEAATMB/wIAAf8BAAEzAQABMwEAAWYBAAEz
+        AQABmQEAATMBAAHMAQABMwEAAf8BAAH/ATMCAAMzAQACMwFmAQACMwGZAQACMwHMAQACMwH/AQABMwFm
+        AgABMwFmATMBAAEzAmYBAAEzAWYBmQEAATMBZgHMAQABMwFmAf8BAAEzAZkCAAEzAZkBMwEAATMBmQFm
+        AQABMwKZAQABMwGZAcwBAAEzAZkB/wEAATMBzAIAATMBzAEzAQABMwHMAWYBAAEzAcwBmQEAATMCzAEA
+        ATMBzAH/AQABMwH/ATMBAAEzAf8BZgEAATMB/wGZAQABMwH/AcwBAAEzAv8BAAFmAwABZgEAATMBAAFm
+        AQABZgEAAWYBAAGZAQABZgEAAcwBAAFmAQAB/wEAAWYBMwIAAWYCMwEAAWYBMwFmAQABZgEzAZkBAAFm
+        ATMBzAEAAWYBMwH/AQACZgIAAmYBMwEAA2YBAAJmAZkBAAJmAcwBAAFmAZkCAAFmAZkBMwEAAWYBmQFm
+        AQABZgKZAQABZgGZAcwBAAFmAZkB/wEAAWYBzAIAAWYBzAEzAQABZgHMAZkBAAFmAswBAAFmAcwB/wEA
+        AWYB/wIAAWYB/wEzAQABZgH/AZkBAAFmAf8BzAEAAcwBAAH/AQAB/wEAAcwBAAKZAgABmQEzAZkBAAGZ
+        AQABmQEAAZkBAAHMAQABmQMAAZkCMwEAAZkBAAFmAQABmQEzAcwBAAGZAQAB/wEAAZkBZgIAAZkBZgEz
+        AQABmQEzAWYBAAGZAWYBmQEAAZkBZgHMAQABmQEzAf8BAAKZATMBAAKZAWYBAAOZAQACmQHMAQACmQH/
+        AQABmQHMAgABmQHMATMBAAFmAcwBZgEAAZkBzAGZAQABmQLMAQABmQHMAf8BAAGZAf8CAAGZAf8BMwEA
+        AZkBzAFmAQABmQH/AZkBAAGZAf8BzAEAAZkC/wEAAcwDAAGZAQABMwEAAcwBAAFmAQABzAEAAZkBAAHM
+        AQABzAEAAZkBMwIAAcwCMwEAAcwBMwFmAQABzAEzAZkBAAHMATMBzAEAAcwBMwH/AQABzAFmAgABzAFm
+        ATMBAAGZAmYBAAHMAWYBmQEAAcwBZgHMAQABmQFmAf8BAAHMAZkCAAHMAZkBMwEAAcwBmQFmAQABzAKZ
+        AQABzAGZAcwBAAHMAZkB/wEAAswCAALMATMBAALMAWYBAALMAZkBAAPMAQACzAH/AQABzAH/AgABzAH/
+        ATMBAAGZAf8BZgEAAcwB/wGZAQABzAH/AcwBAAHMAv8BAAHMAQABMwEAAf8BAAFmAQAB/wEAAZkBAAHM
+        ATMCAAH/AjMBAAH/ATMBZgEAAf8BMwGZAQAB/wEzAcwBAAH/ATMB/wEAAf8BZgIAAf8BZgEzAQABzAJm
+        AQAB/wFmAZkBAAH/AWYBzAEAAcwBZgH/AQAB/wGZAgAB/wGZATMBAAH/AZkBZgEAAf8CmQEAAf8BmQHM
+        AQAB/wGZAf8BAAH/AcwCAAH/AcwBMwEAAf8BzAFmAQAB/wHMAZkBAAH/AswBAAH/AcwB/wEAAv8BMwEA
+        AcwB/wFmAQAC/wGZAQAC/wHMAQACZgH/AQABZgH/AWYBAAFmAv8BAAH/AmYBAAH/AWYB/wEAAv8BZgEA
+        ASEBAAGlAQADXwEAA3cBAAOGAQADlgEAA8sBAAOyAQAD1wEAA90BAAPjAQAD6gEAA/EBAAP4AQAB8AH7
+        Af8BAAGkAqABAAOAAwAB/wIAAf8DAAL/AQAB/wMAAf8BAAH/AQAC/wIAA/8EAAH/AbwBdAGTAZo7AAGZ
+        BJoDFAHqARI2AAGZBJoDFAFtARI2AAGZBJoDFAFtARI0AAH0Af8BmQSaAxQBbQESAQAB/zIAAr0BmQSa
+        AxQBbQESA/QxAAH0AfMBmQSaAxQBbQESAf8CvTEAAf8B9AGZAZoBkwF0AZoDFAFtARIB/wG9AZQxAAH/
+        AfQBmQSaAxQBbQESAf8CvTEAARsBGgGZBJoDFAFtARIB/wIbMQABvQH0AZkEmgMUAW0BEgH/AfQB/zMA
+        AZkEmgMUAW0BEjYAAZkEmgMUAW0BEjYAAZkEmgMUAW0BEjYAAbwBdAOaA+sCbTgAAf8BmQFLOAABQgFN
+        AT4HAAE+AwABKAMAAUADAAEQAwABAQEAAQEFAAGAFwAD/wEAAeAB/wYAAeABBwYAAeABBwYAAeABBwYA
+        AYABBQYAAYAHAAGABwABgAcAAYAHAAGABwABgAcAAeABBwYAAeABBwYAAeABBwYAAeABBwYAAfgB/wYA
+        Cw==
+</source>
+          <target state="needs-review-translation">
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAw
+        CAAAAk1TRnQBSQFMAwEBAAEIAQABCAEAARABAAEQAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        AUADAAEQAwABAQEAAQgGAAEEGAABgAIAAYADAAKAAQABgAMAAYABAAGAAQACgAIAA8ABAAHAAdwBwAEA
+        AfABygGmAQABMwUAATMBAAEzAQABMwEAAjMCAAMWAQADHAEAAyIBAAMpAQADVQEAA00BAANCAQADOQEA
+        AYABfAH/AQACUAH/AQABkwEAAdYBAAH/AewBzAEAAcYB1gHvAQAB1gLnAQABkAGpAa0CAAH/ATMDAAFm
+        AwABmQMAAcwCAAEzAwACMwIAATMBZgIAATMBmQIAATMBzAIAATMB/wIAAWYDAAFmATMCAAJmAgABZgGZ
+        AgABZgHMAgABZgH/AgABmQMAAZkBMwIAAZkBZgIAApkCAAGZAcwCAAGZAf8CAAHMAwABzAEzAgABzAFm
+        AgABzAGZAgACzAIAAcwB/wIAAf8BZgIAAf8BmQIAAf8BzAEAATMB/wIAAf8BAAEzAQABMwEAAWYBAAEz
+        AQABmQEAATMBAAHMAQABMwEAAf8BAAH/ATMCAAMzAQACMwFmAQACMwGZAQACMwHMAQACMwH/AQABMwFm
+        AgABMwFmATMBAAEzAmYBAAEzAWYBmQEAATMBZgHMAQABMwFmAf8BAAEzAZkCAAEzAZkBMwEAATMBmQFm
+        AQABMwKZAQABMwGZAcwBAAEzAZkB/wEAATMBzAIAATMBzAEzAQABMwHMAWYBAAEzAcwBmQEAATMCzAEA
+        ATMBzAH/AQABMwH/ATMBAAEzAf8BZgEAATMB/wGZAQABMwH/AcwBAAEzAv8BAAFmAwABZgEAATMBAAFm
+        AQABZgEAAWYBAAGZAQABZgEAAcwBAAFmAQAB/wEAAWYBMwIAAWYCMwEAAWYBMwFmAQABZgEzAZkBAAFm
+        ATMBzAEAAWYBMwH/AQACZgIAAmYBMwEAA2YBAAJmAZkBAAJmAcwBAAFmAZkCAAFmAZkBMwEAAWYBmQFm
+        AQABZgKZAQABZgGZAcwBAAFmAZkB/wEAAWYBzAIAAWYBzAEzAQABZgHMAZkBAAFmAswBAAFmAcwB/wEA
+        AWYB/wIAAWYB/wEzAQABZgH/AZkBAAFmAf8BzAEAAcwBAAH/AQAB/wEAAcwBAAKZAgABmQEzAZkBAAGZ
+        AQABmQEAAZkBAAHMAQABmQMAAZkCMwEAAZkBAAFmAQABmQEzAcwBAAGZAQAB/wEAAZkBZgIAAZkBZgEz
+        AQABmQEzAWYBAAGZAWYBmQEAAZkBZgHMAQABmQEzAf8BAAKZATMBAAKZAWYBAAOZAQACmQHMAQACmQH/
+        AQABmQHMAgABmQHMATMBAAFmAcwBZgEAAZkBzAGZAQABmQLMAQABmQHMAf8BAAGZAf8CAAGZAf8BMwEA
+        AZkBzAFmAQABmQH/AZkBAAGZAf8BzAEAAZkC/wEAAcwDAAGZAQABMwEAAcwBAAFmAQABzAEAAZkBAAHM
+        AQABzAEAAZkBMwIAAcwCMwEAAcwBMwFmAQABzAEzAZkBAAHMATMBzAEAAcwBMwH/AQABzAFmAgABzAFm
+        ATMBAAGZAmYBAAHMAWYBmQEAAcwBZgHMAQABmQFmAf8BAAHMAZkCAAHMAZkBMwEAAcwBmQFmAQABzAKZ
+        AQABzAGZAcwBAAHMAZkB/wEAAswCAALMATMBAALMAWYBAALMAZkBAAPMAQACzAH/AQABzAH/AgABzAH/
+        ATMBAAGZAf8BZgEAAcwB/wGZAQABzAH/AcwBAAHMAv8BAAHMAQABMwEAAf8BAAFmAQAB/wEAAZkBAAHM
+        ATMCAAH/AjMBAAH/ATMBZgEAAf8BMwGZAQAB/wEzAcwBAAH/ATMB/wEAAf8BZgIAAf8BZgEzAQABzAJm
+        AQAB/wFmAZkBAAH/AWYBzAEAAcwBZgH/AQAB/wGZAgAB/wGZATMBAAH/AZkBZgEAAf8CmQEAAf8BmQHM
+        AQAB/wGZAf8BAAH/AcwCAAH/AcwBMwEAAf8BzAFmAQAB/wHMAZkBAAH/AswBAAH/AcwB/wEAAv8BMwEA
+        AcwB/wFmAQAC/wGZAQAC/wHMAQACZgH/AQABZgH/AWYBAAFmAv8BAAH/AmYBAAH/AWYB/wEAAv8BZgEA
+        ASEBAAGlAQADXwEAA3cBAAOGAQADlgEAA8sBAAOyAQAD1wEAA90BAAPjAQAD6gEAA/EBAAP4AQAB8AH7
+        Af8BAAGkAqABAAOAAwAB/wIAAf8DAAL/AQAB/wMAAf8BAAH/AQAC/wIAA/8EAAH/AbwBdAGTAZo7AAGZ
+        BJoDFAHqARI2AAGZBJoDFAFtARI2AAGZBJoDFAFtARI0AAH0Af8BmQSaAxQBbQESAQAB/zIAAr0BmQSa
+        AxQBbQESA/QxAAH0AfMBmQSaAxQBbQESAf8CvTEAAfUB9AGZAZoBkwF0AZoDFAFtARIB/wG9AZQxAAH1
+        AfQBmQSaAxQBbQESAf8CvTEAARsBGgGZBJoDFAFtARIB9QIbMQABvQH0AZkEmgMUAW0BEgH/AfQB/zMA
+        AZkEmgMUAW0BEjYAAZkEmgMUAW0BEjYAAZkEmgMUAW0BEjYAAe4BdAOaA+sCbTgAAf8BmQFLOAABQgFN
+        AT4HAAE+AwABKAMAAUADAAEQAwABAQEAAQEFAAGAFwAD/wEAAeAB/wYAAeABBwYAAeABBwYAAeABBwYA
+        AYABBQYAAYAHAAGABwABgAcAAYAHAAGABwABgAcAAeABBwYAAeABBwYAAeABBwYAAeABBwYAAfgB/wYA
+        Cw==
+</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="imlImages.TrayLocation" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata">
+          <source>322, 17</source>
+          <target state="needs-review-translation">322, 17</target>
+        </trans-unit>
+        <trans-unit id="toolbarFormManager1.TrayLocation" translate="yes" xml:space="preserve" extype="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" extradata="metadata">
+          <source>429, 17</source>
+          <target state="needs-review-translation">429, 17</target>
+        </trans-unit>
+        <trans-unit id="simpleButton1.ImageOptions.Image" translate="yes" xml:space="preserve" extype="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+          <source>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAjZJREFUSEvt
+        lWtv0lAYx/kUGj/PvoOJZnM0zsve+MIY20IIu0h0W1QyNHOxFOiGsMxuGoVxcUZfTMWoEZyayCV+AkOU
+        y3izR57mNOkp1NIDizHxl/wDPbTPr+e058H1H0RYkoAlvmBsl5RgA4s4Ba+5KW/CXGjtBSnjHFZx+6AD
+        wagKsyHlDSnlDFYxgvLbEUb5MGKEWT6sGNHksgozIaVAytrDKrYKKWsPnjwq/kHx4SE0q1XtkwVmcaNc
+        htdjY9CoVLRj/M0uRvCYlLWHuvhvzXhY8fP3X49+qfuxt187+hnXW79AfZcF79YtmF73a7m8sQCcLM5P
+        rFw5RspbwyLeK3+A8zEfBDJ3IFHagqfljJZEcRtm0stttyy0zkj8aaLoj1H8p6UOrCQgX/gMq9kncFHx
+        Q/LTI8h93+2bZGkbpqLeJifz40TTi5MZ/2jW4YLig419WqpjHMMb4yJic3zVc4KoaJyIk29TcCN/jxJg
+        dMzj85lQxx0WFomKxii2Wupg9DE8K3yBS/GA9kzNAh3z+IOS2l1yT42oaJzMeCrihXQ1R8mswHPS1Sy4
+        w/wBUdFQYhtQnKoMLk6NSnx1cxHiRVUraoyOeTz+8eGAS20DvlzXc3d7BDrm8bnunuYkcYGoaJyI662f
+        ML3md7CdhIZlF0OxXcSlMOy8Kmq9WHmZG7iBTIb5k0QzGtySOIFtcXZnuY3bK1PLa3HUMlk5dd9znJOE
+        a+di3m+TMt/BnO1+7/2TcLl+A1t2zOJ7WOV+AAAAAElFTkSuQmCC
+</source>
+          <target state="needs-review-translation">
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAjZJREFUSEvt
+        lWtv0lAYx/kUGj/PvoOJZnM0zsve+MIY20IIu0h0W1QyNHOxFOiGsMxuGoVxcUZfTMWoEZyayCV+AkOU
+        y3izR57mNOkp1NIDizHxl/wDPbTPr+e058H1H0RYkoAlvmBsl5RgA4s4Ba+5KW/CXGjtBSnjHFZx+6AD
+        wagKsyHlDSnlDFYxgvLbEUb5MGKEWT6sGNHksgozIaVAytrDKrYKKWsPnjwq/kHx4SE0q1XtkwVmcaNc
+        htdjY9CoVLRj/M0uRvCYlLWHuvhvzXhY8fP3X49+qfuxt187+hnXW79AfZcF79YtmF73a7m8sQCcLM5P
+        rFw5RspbwyLeK3+A8zEfBDJ3IFHagqfljJZEcRtm0stttyy0zkj8aaLoj1H8p6UOrCQgX/gMq9kncFHx
+        Q/LTI8h93+2bZGkbpqLeJifz40TTi5MZ/2jW4YLig419WqpjHMMb4yJic3zVc4KoaJyIk29TcCN/jxJg
+        dMzj85lQxx0WFomKxii2Wupg9DE8K3yBS/GA9kzNAh3z+IOS2l1yT42oaJzMeCrihXQ1R8mswHPS1Sy4
+        w/wBUdFQYhtQnKoMLk6NSnx1cxHiRVUraoyOeTz+8eGAS20DvlzXc3d7BDrm8bnunuYkcYGoaJyI662f
+        ML3md7CdhIZlF0OxXcSlMOy8Kmq9WHmZG7iBTIb5k0QzGtySOIFtcXZnuY3bK1PLa3HUMlk5dd9znJOE
+        a+di3m+TMt/BnO1+7/2TcLl+A1t2zOJ7WOV+AAAAAElFTkSuQmCC
+</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en" target-language="fr" original="ARGENTUM/ADDUSER.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="ARGENTUM/ADDUSER.RESX" datatype="resx">
+        <trans-unit id="simpleButton1.ImageOptions.Image" translate="yes" xml:space="preserve" extype="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+          <source>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAABMFJREFUSEvl
+        18lTIlccB3CrklNSyTX3nLNV5ZJ/JNdcUknVpMYVxSUTBmfGTCKiuMyo49ZAIyC44DYqIu4RBHUccEFx
+        wQWJAzpxtETUb97rbnQc0bjMLb+qb0F3v34f3uvX0MT9v+tPcdUn8viqr/MSmG9vE9kd5Ve0L6Hby6v8
+        5/KPFEmq1VJJfbBM2hAsTtfuFmfoDsr/aOdSkdt+SF4jNIy845hG2HdQLX9+FN1XLm04LhSxYUWy+rU8
+        nvlB6P7iop+yVGIM9jv9oDGoRsCyDpgXwuhbPoB9LQLLYhizwWMsbAOTfx9xxyYCR3D7dmEb98O7dQyr
+        dQ6aZ73o7l9Csbh2Oz+R+VEgYlfBLzXflN2vPwdTzOk/RDdBXm4ecSjFu8l+G/kw868OUXZPC2UOi44m
+        JwfXEpj2YRlcRkmGbluRyCQIzPm6CHZQlCCO9UMO9W4BvWQG+km8ZNu1tAPmkQa+0Uron7TD3O0BW2bl
+        +qChIy8S6/6RJ6pjT3ss2KBzonfpAEOrEQ6hGV6JwLp4AE+In3IOzuFhHYENbTNnYB5fBFk/O7JU1ccC
+        d1qxYL2Wh+fIKCkyRkZvJqN3C1N+AgsjVhe1oa5l+hxM8/S3+lD+3ZovBe60YsEajeNkMb0UFtP4Bj/l
+        0USvMUOuca3WcSFM+6aGwJ3WOZgdQaPeyXU+S6a1h4z0LzLlb6PROJf3YBpag9kbhr55CppSfnG9nSvD
+        HWYPWZFaVDwyoexBE0qzm7j3sUKPRVMk1qLFNHlzmKZnaBnmXu+1YhlcOgNGcy34febKML3/nkmNkN+t
+        uVHoud0Di9eHjRobOlVdONhauFHoubSPa8P0dhowWrlOwq/msb/iiplwYJZvsz7Fb5O2dJueS/u4FfzG
+        3ouQThMzrzuase+fQUhfy23TtlFYU9bLLbg++9rN4H3/NPamRy8NHS1tG5hzQV9iQkGqCvLsWsjvaVCQ
+        pkZBsioij6/5TuBO6zJ4d2II262Nl2ZnpAfTw3YUZqghYfVIHW5Air2RS+pgA6TV+qO8FCZw7mvzMvgq
+        2Zh1EZSFuNN4Ar6bLFMdZCnM6pkfi9vCuuImSNT6mCBNqasb6aMmPCzS7OWKqjIE9mLYNzmB4OIUdvwe
+        zNkdHDI1YEM45MWqexKb827sbc5DIVIhZSQ2apwdgC8whUwCi7uMkImYeYG9ADZY0KVsgbO9C96RPtTl
+        G7DjG0V5Fovg3Ags6lbYWzqxMjEIxX2WQx5PtKPS3XOKenhUMtbC77M1QpbE7ApsbNjKtmDZ1gn/uBmb
+        Lgu8Ax3YmumBp+859+qzdWGdHPPZu6CQqLmOpc5WrAemoZnpQ71nEL4NgjoFlERE4Lwk5o3Axn7Ys6qa
+        OOC/Epy2oDBNCRFZvRw+xuPvojQZ7UbkipQvBDb6eKteK8nSh55k6kNFaZrdp2L1EZOtvVIUyUo8qNCd
+        AL86m5HlMJ1BaXIeq8nzl+ongeWLPoQX3Kn+/CaRJVR+IUtRBrIaDeewaCSMLiJLZl7UfV/3gUC+n+L+
+        hSQz/ofFtXvp5H4WkVUuItc0o82AnN/ZHXLMpUis+Exo/n6rKJ79lHxJZMpSlXPk70xYnsBEyO3jlpEH
+        e6lU+iHfKi7uX4wZP9vjaXpFAAAAAElFTkSuQmCC
+</source>
+          <target state="needs-review-translation">
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAABMFJREFUSEvl
+        18lTIlccB3CrklNSyTX3nLNV5ZJ/JNdcUknVpMYVxSUTBmfGTCKiuMyo49ZAIyC44DYqIu4RBHUccEFx
+        wQWJAzpxtETUb97rbnQc0bjMLb+qb0F3v34f3uvX0MT9v+tPcdUn8viqr/MSmG9vE9kd5Ve0L6Hby6v8
+        5/KPFEmq1VJJfbBM2hAsTtfuFmfoDsr/aOdSkdt+SF4jNIy845hG2HdQLX9+FN1XLm04LhSxYUWy+rU8
+        nvlB6P7iop+yVGIM9jv9oDGoRsCyDpgXwuhbPoB9LQLLYhizwWMsbAOTfx9xxyYCR3D7dmEb98O7dQyr
+        dQ6aZ73o7l9Csbh2Oz+R+VEgYlfBLzXflN2vPwdTzOk/RDdBXm4ecSjFu8l+G/kw868OUXZPC2UOi44m
+        JwfXEpj2YRlcRkmGbluRyCQIzPm6CHZQlCCO9UMO9W4BvWQG+km8ZNu1tAPmkQa+0Uron7TD3O0BW2bl
+        +qChIy8S6/6RJ6pjT3ss2KBzonfpAEOrEQ6hGV6JwLp4AE+In3IOzuFhHYENbTNnYB5fBFk/O7JU1ccC
+        d1qxYL2Wh+fIKCkyRkZvJqN3C1N+AgsjVhe1oa5l+hxM8/S3+lD+3ZovBe60YsEajeNkMb0UFtP4Bj/l
+        0USvMUOuca3WcSFM+6aGwJ3WOZgdQaPeyXU+S6a1h4z0LzLlb6PROJf3YBpag9kbhr55CppSfnG9nSvD
+        HWYPWZFaVDwyoexBE0qzm7j3sUKPRVMk1qLFNHlzmKZnaBnmXu+1YhlcOgNGcy34febKML3/nkmNkN+t
+        uVHoud0Di9eHjRobOlVdONhauFHoubSPa8P0dhowWrlOwq/msb/iiplwYJZvsz7Fb5O2dJueS/u4FfzG
+        3ouQThMzrzuase+fQUhfy23TtlFYU9bLLbg++9rN4H3/NPamRy8NHS1tG5hzQV9iQkGqCvLsWsjvaVCQ
+        pkZBsioij6/5TuBO6zJ4d2II262Nl2ZnpAfTw3YUZqghYfVIHW5Air2RS+pgA6TV+qO8FCZw7mvzMvgq
+        2Zh1EZSFuNN4Ar6bLFMdZCnM6pkfi9vCuuImSNT6mCBNqasb6aMmPCzS7OWKqjIE9mLYNzmB4OIUdvwe
+        zNkdHDI1YEM45MWqexKb827sbc5DIVIhZSQ2apwdgC8whUwCi7uMkImYeYG9ADZY0KVsgbO9C96RPtTl
+        G7DjG0V5Fovg3Ags6lbYWzqxMjEIxX2WQx5PtKPS3XOKenhUMtbC77M1QpbE7ApsbNjKtmDZ1gn/uBmb
+        Lgu8Ax3YmumBp+859+qzdWGdHPPZu6CQqLmOpc5WrAemoZnpQ71nEL4NgjoFlERE4Lwk5o3Axn7Ys6qa
+        OOC/Epy2oDBNCRFZvRw+xuPvojQZ7UbkipQvBDb6eKteK8nSh55k6kNFaZrdp2L1EZOtvVIUyUo8qNCd
+        AL86m5HlMJ1BaXIeq8nzl+ongeWLPoQX3Kn+/CaRJVR+IUtRBrIaDeewaCSMLiJLZl7UfV/3gUC+n+L+
+        hSQz/ofFtXvp5H4WkVUuItc0o82AnN/ZHXLMpUis+Exo/n6rKJ79lHxJZMpSlXPk70xYnsBEyO3jlpEH
+        e6lU+iHfKi7uX4wZP9vjaXpFAAAAAElFTkSuQmCC
+</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en" target-language="fr" original="ARGENTUM/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="ARGENTUM/PROPERTIES/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="adduser" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\adduser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\adduser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="enter" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\enter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\enter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="save" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="login" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="exit" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="background" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="delete" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="accounts" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\accounts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\accounts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="edit" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="benefited" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\benefited.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\benefited.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="associate" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\associate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\associate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="category" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\category.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\category.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="configuration" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\configuration.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\configuration.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="database" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="debt" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\debt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\debt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="move" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="report" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="revenue" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\revenue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\revenue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="revenue_programmed" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\revenue_programmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\revenue_programmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="transfer" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\transfer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\transfer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="transfer_programmed" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\transfer_programmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\transfer_programmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="withdrawal" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\withdrawal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\withdrawal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="withdrawal_programmed" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Presets\Images\withdrawal_programmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Presets\Images\withdrawal_programmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
         </trans-unit>
       </group>
     </body>
